@@ -30,7 +30,7 @@ echo "Installing Python packages..."
 sudo "$APP_DIR/venv/bin/pip" install --upgrade pip -q
 sudo "$APP_DIR/venv/bin/pip" install -r requirements.txt -q
 sudo "$APP_DIR/venv/bin/pip" install gunicorn -q
-
+#pls work 
 # Configure Nginx
 echo "Configuring Nginx..."
 sudo bash -c 'cat > /etc/nginx/sites-available/todos-app <<EOF
